@@ -14,10 +14,10 @@ public class Task1_3 {
     public static void main(String[] args) {
 
         // ① 5 と 10 を加算した値を代入する、変数 plus を作成しなさい。
-int plus = 5; plus += 10;
+int plus = 5 + 10;
 
         // ② 20 から 7 を減算した値を代入する、変数 minus を作成しなさい。
-int minus = 20; minus -= 7;
+int minus = 20 - 7;
         // ③下記の処理について、何をしているのかコメントを記入してください。
         // [変数がmultiplyで、10と2を掛け合わせて10に代入している]
         int multiply = 10 * 2;
@@ -34,10 +34,10 @@ int remi = 20; remi %= 6;
 String tarin = town + line;
 
         // ⑦ 変数plus, minus, multiply, remi, train をそれぞれ出力しなさい。
-System.out.println(plus = 15);
-System.out.println(minus = 13 );
-System.out.println(multiply = 20 );
-System.out.println(remi = 20%6);
-System.out.println(tarin = "有楽町線");
+System.out.println(plus);
+System.out.println(minus);
+System.out.println(multiply);
+System.out.println(remi);
+System.out.println(tarin);
     }
 }
